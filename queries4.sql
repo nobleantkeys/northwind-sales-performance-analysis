@@ -227,7 +227,7 @@ FROM ProductsPerOrder
 
 ALTER VIEW MasterOrders AS
 SELECT	oc.OrderID,
-		oc.OrderDate, --added this
+		oc.OrderDate, 
 		cc.CompanyName,
 		ec.FirstName + ' ' + ec.LastName AS EmployeeName,
 		p.ProductName,
